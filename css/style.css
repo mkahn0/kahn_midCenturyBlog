@@ -1,0 +1,105 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+nav{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+nav a{ 
+    color: #047F8C;
+    text-decoration: none;
+    display:inline-block;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header{
+    text-align: center;
+}
+
+header h1 a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    color: #3A400C;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 22.5px;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #047F8C;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+}
+
+aside img{
+    width:fit-content;
+    width: 25%;
+}
+
+ul{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+ul li a{
+    text-decoration: none;
+    color:#3A400C;
+}
+
+footer{
+    background-color: #04ADBF;
+    width: 100%;
+}
+.social-links{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+footer a{
+    text-decoration: none;
+    color:#3A400C;
+}
+footer p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    text-decoration: none;
+    color:#3A400C;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body{
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: rgb(209, 225, 240);
+}
